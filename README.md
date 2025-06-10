@@ -36,12 +36,9 @@ The Diabetes Prediction System is an innovative healthcare solution that utilize
 - Scikit-learn
 - Pandas
 - NumPy
-- Flask
-- HTML/CSS
-- JavaScript
-- Bootstrap
+- Streamlit
 
 ## ⚙️ Installation <a name="installation"></a>
 1. Clone the repository
 ```bash
-git clone https://github.com/Shankhadweep/Diabetes-Prediction-System.git
+https://github.com/Shankhadweep/Diabetes-Prediction-System.git
