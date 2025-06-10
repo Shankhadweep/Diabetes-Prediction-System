@@ -4,8 +4,6 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
 import numpy as np
-import plotly.express as px
-import plotly.graph_objects as go
 import time
 import base64
 from datetime import datetime
@@ -347,17 +345,6 @@ elif selected == 'Diabetes Prediction':
                 st.subheader("Key Metrics")
                 col1, col2, col3 = st.columns(3)
 
-                with col1:
-                    fig1 = create_gauge_chart(Glucose, "Glucose", 0, 200, [70, 140])
-                    st.plotly_chart(fig1)
-
-                with col2:
-                    fig2 = create_gauge_chart(BMI, "BMI", 0, 50, [18.5, 24.9])
-                    st.plotly_chart(fig2)
-
-                with col3:
-                    fig3 = create_gauge_chart(BloodPressure, "Blood Pressure", 0, 122, [60, 80])
-                    st.plotly_chart(fig3)
 
                 # Recommendations
                 st.subheader("Recommendations")
