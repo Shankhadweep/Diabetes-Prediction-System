@@ -382,11 +382,6 @@ elif selected == 'History':
     if st.session_state.history:
         df = pd.DataFrame(st.session_state.history)
         st.dataframe(df)
-        
-        # Visualizations
-        st.subheader("Trends Over Time")
-        fig = px.line(df, x='timestamp', y='prediction', title='Prediction Results Over Time')
-        st.plotly_chart(fig)
     else:
         st.info("No prediction history available yet.")
 
