@@ -51,8 +51,8 @@ streamlit run app.py
 ### Overall Metrics
 | Metric    | Score (%) |
 |-----------|-----------|
-| Accuracy  | 84.2      |
-| Precision | 83.7      |
-| Recall    | 82.1      |
-| F1-Score  | 82.9      |
+| Accuracy  | 99.9      |
+| Precision |  100     |
+| Recall    | 97      |
+| F1-Score  | 98      |
 
