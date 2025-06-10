@@ -5,7 +5,6 @@ os
 pickle
 streamlit_option_menu 
 pandas 
-plotly
 time
 base64
 datetime 
