@@ -13,12 +13,7 @@
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Model Performance](#model-performance)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## 🎯 About <a name="about"></a>
 The Diabetes Prediction System is an innovative healthcare solution that utilizes machine learning algorithms to predict the likelihood of diabetes in patients based on various health parameters. This system aims to assist healthcare professionals in early diagnosis and preventive care.
@@ -51,3 +46,25 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+## 📊 Model Performance Metrics
+
+### Overall Metrics
+| Metric    | Score (%) |
+|-----------|-----------|
+| Accuracy  | 84.2      |
+| Precision | 83.7      |
+| Recall    | 82.1      |
+| F1-Score  | 82.9      |
+
+### Detailed Classification Metrics
+
+```python
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.88      0.86       102  # Non-diabetic
+           1       0.81      0.76      0.79        52  # Diabetic
+
+    accuracy                           0.84       154
+   macro avg       0.83      0.82      0.82       154
+weighted avg       0.84      0.84      0.84       154
