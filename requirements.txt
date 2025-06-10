@@ -11,3 +11,5 @@ time
 base64
 datetime 
 json
+sklearn.model_selection
+sklearn.ensemble 
