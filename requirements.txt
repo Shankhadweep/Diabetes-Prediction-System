@@ -1,4 +1,13 @@
 numpy
 scikit-learn
 streamlit
-streamlit-option-menu
+os
+pickle
+streamlit_option_menu 
+pandas 
+plotly.express 
+plotly.graph_objects 
+time
+base64
+datetime 
+json
