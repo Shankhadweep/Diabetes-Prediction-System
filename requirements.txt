@@ -10,6 +10,6 @@ base64
 datetime 
 json
 sklearn
-plotly.express
-plotly.graph_objects
+plotly
+
 
