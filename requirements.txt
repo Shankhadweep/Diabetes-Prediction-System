@@ -5,11 +5,9 @@ os
 pickle
 streamlit_option_menu 
 pandas 
-plotly.express 
-plotly.graph_objects 
+plotly
 time
 base64
 datetime 
 json
-sklearn.model_selection
-sklearn.ensemble 
+sklearn
