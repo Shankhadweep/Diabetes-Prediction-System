@@ -10,3 +10,6 @@ base64
 datetime 
 json
 sklearn
+plotly==5.18.0
+
+
