@@ -56,15 +56,3 @@ streamlit run app.py
 | Recall    | 82.1      |
 | F1-Score  | 82.9      |
 
-### Detailed Classification Metrics
-
-```python
-Classification Report:
-              precision    recall  f1-score   support
-
-           0       0.85      0.88      0.86       102  # Non-diabetic
-           1       0.81      0.76      0.79        52  # Diabetic
-
-    accuracy                           0.84       154
-   macro avg       0.83      0.82      0.82       154
-weighted avg       0.84      0.84      0.84       154
