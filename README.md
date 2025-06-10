@@ -41,5 +41,13 @@ The Diabetes Prediction System is an innovative healthcare solution that utilize
 ## ⚙️ Installation <a name="installation"></a>
 1. Clone the repository
 ```bash
-https://github.com/Shankhadweep/Diabetes-Prediction-System.git
+git clone https://github.com/Shankhadweep/Diabetes-Prediction-System.git
+```
+2.Install required packages
+```bash
+pip install -r requirements.txt
+```
+3.Run the application
+```bash
+streamlit run app.py
 ```
